@@ -11,9 +11,11 @@
       "password": "password"
     }
   ],
+
   "python.testing.unittestArgs": ["-v", "-s", "./project", "-p", "test_*.py"],
   "python.testing.pytestEnabled": false,
   "python.testing.unittestEnabled": true,
+
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -22,5 +24,8 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/__pycache__": true
-  }
+  },
+
+  "editor.formatOnSave": true,
+  "git.autofetch": true
 }
